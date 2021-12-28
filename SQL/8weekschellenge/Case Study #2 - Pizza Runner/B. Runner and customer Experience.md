@@ -15,7 +15,15 @@ from runner_cte
 group by week(registration_date) ;
 ````
 
-**Answer:**
+**Output:**
+
+</br>
+
+
+![image](https://user-images.githubusercontent.com/40135948/147536731-c34de6d6-0bb0-460d-bd3a-8f404cb7ad2b.png)
+
+
+**Insight:**
 
 
 - On Week 1 of Jan 2021, 2 new runners signed up.
@@ -32,7 +40,14 @@ from customer_orders_temp c
 	c.order_id = r.order_id;
 ````
 
-**Answer:**
+**Output:**
+
+</br>
+
+
+![image](https://user-images.githubusercontent.com/40135948/147536848-7a9431a7-75a8-418e-9ecc-ce514d4bcd99.png)
+
+**Insight:**
 
 
 - The average time taken in minutes by runners to arrive at Pizza Runner HQ to pick up the order is 18.25 minutes.
@@ -47,11 +62,18 @@ from customer_orders_temp c
 	runner_orders_temp r 
 		on
 	c.order_id = r.order_id )
-    select Number_of_pizza,avg(Prepare_time) from temp group by Number_of_pizza ; 
+    select Number_of_pizza,avg(Prepare_time) "Average time" from temp group by Number_of_pizza ; 
 ; 
 ````
 
-**Answer:**
+**Output:**
+
+</br>
+
+
+![image](https://user-images.githubusercontent.com/40135948/147536893-da3dbfb0-c926-43d2-bf76-a7e5d4ec844b.png)
+
+**Insight:**
 
 - On average, a single pizza order takes 12 minutes to prepare.
 - An order with 3 pizzas takes 29 minutes at an average of around 10 minutes per pizza.
@@ -74,7 +96,14 @@ select distinct customer_id , avg(distance) over (partition by customer_id) 'Avg
 from temp_tbl1;
 ````
 
-**Answer:**
+**Output:**
+
+</br>
+
+![image](https://user-images.githubusercontent.com/40135948/147536924-33398a81-b560-41d4-9aac-3e12d9a0e609.png)
+
+
+**Insight:**
 
 _(Assuming that distance is calculated from Pizza Runner HQ to customer’s place)_
 
@@ -89,7 +118,14 @@ select max(duration) - min(duration) 'Time difference'
 from runner_orders_temp ;
 ```
 
-**Answer:**
+**Output:**
+
+</br>
+
+
+![image](https://user-images.githubusercontent.com/40135948/147536941-3d7edd14-9cac-4ba9-a26b-a2acc18592e0.png)
+
+**Insight:**
 
 
 - The difference between longest  and shortest delivery time for all orders is 30 minutes.
@@ -102,7 +138,14 @@ from runner_orders_temp
 where cancellation is null order by runner_id;
 ````
 
-**Answer:**
+**Output:**
+
+</br>
+
+
+![image](https://user-images.githubusercontent.com/40135948/147536961-baf25e2d-7bf1-4ece-9f51-da5ffd90c32a.png)
+
+**Insight:**
 
 _(Average speed = Distance in km / Duration in hour)_
 - Runner 1’s average speed runs from 37.5km/h to 60km/h.
@@ -117,7 +160,14 @@ from runner_orders_temp
 group by runner_id;
 ````
 
-**Answer:**
+**Output:**
+
+</br>
+
+
+![image](https://user-images.githubusercontent.com/40135948/147536979-1127c8f8-e3e7-45aa-a9c4-9e4674221c52.png)
+
+**Insight:**
 
 - Runner 1 has 100% successful delivery.
 - Runner 2 has 75% successful delivery.
