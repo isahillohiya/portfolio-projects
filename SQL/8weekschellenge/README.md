@@ -15,7 +15,7 @@ Thanks **[Danny ma](https://www.linkedin.com/in/datawithdanny/)**! for creating 
 - [Case Study #8: Fresh Segments](#case-study-8-fresh-segments)
 
 
-## Case Study #2: Pizza Runner
+## Case Study #1: Danny's Diner
 
 <img src="https://user-images.githubusercontent.com/81607668/127727503-9d9e7a25-93cb-4f95-8bd0-20b87cb4b459.png" alt="Image" width="500" height="520">
 
