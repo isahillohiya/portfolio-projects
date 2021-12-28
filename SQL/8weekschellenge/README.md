@@ -14,9 +14,12 @@ Thanks **[Danny ma](https://www.linkedin.com/in/datawithdanny/)**! for creating 
 - [Case Study #6: Clique Bait](#case-study-6-clique-bait)
 - [Case Study #8: Fresh Segments](#case-study-8-fresh-segments)
 
+
+## Case Study #2: Pizza Runner
+
 <img src="https://user-images.githubusercontent.com/81607668/127727503-9d9e7a25-93cb-4f95-8bd0-20b87cb4b459.png" alt="Image" width="500" height="520">
 
-View the case study [here](https://8weeksqlchallenge.com/case-study-1/) and my **solution** [here](#)
+View the case study [here](https://8weeksqlchallenge.com/case-study-1/) and my **solution** [here](https://github.com/isahillohiya/portfolio-projects/blob/main/SQL/8weekschellenge/Case%20Study%20%231%20-%20Danny's%20Dine/Insights.md)
 
 ### Business Task
 Danny wants to use the data to Output a few simple questions about his customers, especially about their visiting patterns, how much money they’ve spent and also which menu items are their favourite. 
@@ -29,13 +32,13 @@ Danny wants to use the data to Output a few simple questions about his customers
 
 ***
 
-################################ write insights here ###########
+
 
 ## Case Study #2: Pizza Runner
 
 <img src="https://user-images.githubusercontent.com/81607668/127271856-3c0d5b4a-baab-472c-9e24-3c1e3c3359b2.png" alt="Image" width="500" height="520">
 
-View the case study [here](https://8weeksqlchallenge.com/case-study-2/) and my **solution** [here](#) 
+View the case study [here](https://8weeksqlchallenge.com/case-study-2/) and my **solution** [here](https://github.com/isahillohiya/portfolio-projects/tree/main/SQL/8weekschellenge/Case%20Study%20%232%20-%20Pizza%20Runner) 
 
 ### Business Task
 Danny is expanding his new Pizza Empire and at the same time, he wants to Uberize it, so Pizza Runner was launched!
