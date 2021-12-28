@@ -50,8 +50,7 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 ![image](https://user-images.githubusercontent.com/81607668/127271531-0b4da8c7-8b24-4a14-9093-0795c4fa037e.png)
 
 ### Insights and Findings
-  
-  ############# write insights here
+
 
 ***
 
