@@ -79,7 +79,7 @@ from customer_orders_temp c
 - An order with 3 pizzas takes 29 minutes at an average of around 10 minutes per pizza.
 - It takes 19 minutes to prepare an order with 2 pizzas which is 9 minutes per pizza — making 2 pizzas in a single order the ultimate efficiency rate.
 
-### 4. Is there any relationship between the number of pizzas and how long the order takes to prepare?
+### 4. What was the average distance travelled for each customer?
 
 ````sql
 with temp_tbl1
@@ -133,7 +133,7 @@ from runner_orders_temp ;
 ### 6. What was the average speed for each runner for each delivery and do you notice any trend for these values?
 
 ````sql
-select order_id,runner_id,distance , duration,round((distance*60 / duration),2) 
+select order_id,runner_id,distance , duration,round((distance*60 / duration),2) " AVG speed"
 from runner_orders_temp 
 where cancellation is null order by runner_id;
 ````
@@ -143,7 +143,7 @@ where cancellation is null order by runner_id;
 </br>
 
 
-![image](https://user-images.githubusercontent.com/40135948/147536961-baf25e2d-7bf1-4ece-9f51-da5ffd90c32a.png)
+![image](https://user-images.githubusercontent.com/40135948/147537195-b67f251d-3b04-4961-8bd3-06251c2dc520.png)
 
 **Insight:**
 
