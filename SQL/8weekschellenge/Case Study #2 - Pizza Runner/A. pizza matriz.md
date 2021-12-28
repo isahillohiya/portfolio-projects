@@ -11,6 +11,9 @@ from customer_orders ;
 ````
 
 **Output:**
+
+</br>
+
 ![image](https://user-images.githubusercontent.com/40135948/147532634-b3fe22fa-bc73-4666-9687-5568eacf4933.png)
 
 
@@ -26,6 +29,10 @@ from customer_orders ;
 ````
 
 **Output:**
+
+</br>
+
+
 ![image](https://user-images.githubusercontent.com/40135948/147532739-dd3e4ff6-f9e6-4494-a1df-e2520ae4bb91.png)
 
 
@@ -42,6 +49,10 @@ group by runner_id;
 ````
 
 **Output:**
+
+</br>
+
+
 ![image](https://user-images.githubusercontent.com/40135948/147532876-338a6af6-f66f-4734-93c4-2c9da4bb01e9.png)
 
 
@@ -71,6 +82,10 @@ where order_id in (
 ````
 
 **Output:**
+
+</br>
+
+
 ![image](https://user-images.githubusercontent.com/40135948/147532928-f98767e8-2b9c-4994-9ea1-57ca3a6dc73f.png)
 
 
@@ -91,6 +106,10 @@ ORDER BY c.customer_id;
 ````
 
 **Output:**
+
+</br>
+
+
 ![image](https://user-images.githubusercontent.com/40135948/147532984-7139fb5d-0088-4769-8653-86b0c50a1c89.png)
 
 
@@ -118,6 +137,10 @@ limit 1;
 ````
 
 **Output:**
+
+</br>
+
+
 ![image](https://user-images.githubusercontent.com/40135948/147532995-2571dccb-dca8-4fbd-9bd4-1d82b90d8bea.png)
 
 
@@ -146,6 +169,10 @@ ORDER BY c.customer_id;
 ````
 
 **Output:**
+
+</br>
+
+
 ![image](https://user-images.githubusercontent.com/40135948/147535292-0a910a84-f3c6-45ac-b630-9235536bde90.png)
 
 
@@ -164,6 +191,10 @@ where  order_id in (
 ````
 
 **Output:**
+
+</br>
+
+
 ![image](https://user-images.githubusercontent.com/40135948/147535365-7b4ff13c-c175-49d6-8d52-03b5fe8945c5.png)
 
 
@@ -180,6 +211,10 @@ order by hour(order_time);
 ````
 
 **Output:**
+
+</br>
+
+
 ![image](https://user-images.githubusercontent.com/40135948/147535687-530b3f07-cdbf-4484-a493-85f638acd0c2.png)
 
 
@@ -198,6 +233,10 @@ order by DAYOFWEEK(order_time);
 ````
 
 **Output:**
+
+</br>
+
+
 ![image](https://user-images.githubusercontent.com/40135948/147535707-fa76de8e-4f08-488f-8396-7461456178bd.png)
 
 
