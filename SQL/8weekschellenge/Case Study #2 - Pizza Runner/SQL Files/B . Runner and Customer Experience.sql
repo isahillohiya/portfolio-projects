@@ -28,7 +28,7 @@ from customer_orders_temp c
 	runner_orders_temp r 
 		on
 	c.order_id = r.order_id )
-    select Number_of_pizza,avg(Prepare_time) from temp group by Number_of_pizza ; 
+    select Number_of_pizza,avg(Prepare_time) "Average time" from temp group by Number_of_pizza ; 
 ; 
 
 -- 4. What was the average distance travelled for each customer?
@@ -54,7 +54,7 @@ from runner_orders_temp ;
 
 -- 6. What was the average speed for each runner for each delivery and do you notice any trend for these values?
 
-select order_id,runner_id,distance , duration,round((distance*60 / duration),2) 
+select order_id,runner_id,distance , duration,round((distance*60 / duration),2)  " AVG speed"
 from runner_orders_temp 
 where cancellation is null order by runner_id;
 
