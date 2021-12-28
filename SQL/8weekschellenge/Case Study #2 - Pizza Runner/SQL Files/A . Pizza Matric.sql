@@ -7,7 +7,7 @@ from customer_orders ;
 
 -- 2. How many unique customer orders were made?
 
-select count(distinct customer_id) as 'Unique customers'
+select count(distinct order_id) as 'Unique customers'
 from customer_orders ;
 
 -- 3. How many successful orders were delivered by each runner?
@@ -76,29 +76,31 @@ limit 1;
 
 -- 7. For each customer, how many delivered pizzas had at least 1 change and how many had no changes?
 SELECT 
-  c.customer_id,
+  customer_id,
   SUM(
-    CASE WHEN c.exclusions <> ' ' OR c.extras <> ' ' THEN 1
+    CASE WHEN exclusions is not NULL OR extras is not NULL THEN 1
     ELSE 0
     END) AS at_least_1_change,
   SUM(
-    CASE WHEN c.exclusions = ' ' AND c.extras = ' ' THEN 1 
+    CASE WHEN exclusions is NULL AND extras is NULL THEN 1 
     ELSE 0
     END) AS no_change
-FROM customer_orders_temp c
-JOIN runner_orders_temp r
-  ON c.order_id = r.order_id
-WHERE r.distance != 0
-GROUP BY c.customer_id
-ORDER BY c.customer_id;
+FROM customer_orders_temp 
+WHERE order_id in (
+					select order_id 
+                    from runner_orders_temp 
+                    where cancellation is null
+                    )  -- returns order_id which are not cancelled 
+GROUP BY customer_id
+ORDER BY customer_id;
 
 -- 8. How many pizzas were delivered that had both exclusions and extras?
-select count(pizza_id) "count" from customer_orders_temp 
-where  order_id in (
-			select order_id 
-            from runner_orders_temp 
-            where cancellation is null
-            ) and exclusions is not null and extras is not null  ;
+select count(pizza_id) "delivery count" from customer_orders_temp 
+where order_id in (
+					select order_id 
+                    from runner_orders_temp 
+                    where cancellation is null
+                    )  and exclusions is not null and extras is not null  ;
 
 
 -- 9. What was the total volume of pizzas ordered for each hour of the day?
