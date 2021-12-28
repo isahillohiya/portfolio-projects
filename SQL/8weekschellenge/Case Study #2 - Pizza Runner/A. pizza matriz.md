@@ -24,7 +24,7 @@ from customer_orders ;
 ### 2. How many unique customer orders were made?
 
 ````sql
-select count(distinct customer_id) as 'Unique customers'
+select count(distinct order_id) as 'Unique customers'
 from customer_orders ;
 ````
 
@@ -33,7 +33,7 @@ from customer_orders ;
 </br>
 
 
-![image](https://user-images.githubusercontent.com/40135948/147532739-dd3e4ff6-f9e6-4494-a1df-e2520ae4bb91.png)
+![image](https://user-images.githubusercontent.com/40135948/147536049-2e8743fb-2b66-43b6-8aa3-c465d79ea667.png)
 
 
 - There are 10 unique customer orders.
