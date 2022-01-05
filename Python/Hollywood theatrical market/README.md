@@ -1,6 +1,6 @@
 # EDA : Hollywood Theatrical Market Synopsis 1995 to 2021 
 
-## Insert Image here
+![image](https://user-images.githubusercontent.com/40135948/148254424-bd844eef-42ff-4d03-b5ae-4f5fab32146d.png)
 
 </br>
 
@@ -62,6 +62,8 @@ In order to provide a fair comparison between movies released in different years
 
 ## Anual ticket sales:
 
+![image](https://user-images.githubusercontent.com/40135948/148254589-888deb6c-4663-480e-9fd2-2d48d98029e0.png)
+
 </br>
 
 - Ticket sales was booming untill 2002 Then it started gradually decresing 
@@ -70,7 +72,7 @@ In order to provide a fair comparison between movies released in different years
 
 </br>
 
-### insert highest lowest table here 
+![image](https://user-images.githubusercontent.com/40135948/148254684-e68a4743-cf10-4a61-a21c-6f4448982221.png)
 
 </br>
 
@@ -84,6 +86,9 @@ In order to provide a fair comparison between movies released in different years
 
 ### Genre :
 
+![image](https://user-images.githubusercontent.com/40135948/148254731-9d7acbd8-66d8-441e-b294-a21b44c50b3f.png)
+
+
 </br>
 
 - Majority of the films belongs to **Adventure** genre followed by **action** genre 
@@ -92,6 +97,9 @@ In order to provide a fair comparison between movies released in different years
 </br>
 
 ### Rating
+
+![image](https://user-images.githubusercontent.com/40135948/148254780-c04624f2-f859-42bd-b6c6-1835fc3d046a.png)
+
 
 </br>
 
@@ -102,6 +110,9 @@ In order to provide a fair comparison between movies released in different years
 </br>
 
 ### DISTRIBUTOR
+
+![image](https://user-images.githubusercontent.com/40135948/148254824-72bfc1f6-9c4c-4de4-9edb-c251e0074fa3.png)
+
 
 </br>
 
@@ -114,9 +125,18 @@ In order to provide a fair comparison between movies released in different years
 
 ## Popular creative types
 
+![image](https://user-images.githubusercontent.com/40135948/148254876-88974724-33d4-4662-823c-ad50af42a0e5.png)
+
+
 - More than **50%** released films are **contemporary fiction** 
 - Second biggest chunk(16.7%) is occupied by **Factual** movies
 - **Supar hero** movies have the lowest release number.
+
+</br>
+
+![image](https://user-images.githubusercontent.com/40135948/148254916-bad4823b-c53c-4bb1-b4cc-340f2bb2451c.png)
+
+</br>
 
 - In terms of **Total Gross** Top 3 creative types are Contemporaty fiction, kids fiction and Science fiction 
 - Eventhough **super hero** creative type have lowest release count it have the highest average revenue In terms of **Average Gross** followed by **Kids fictiom** and **science fiction**. 
@@ -127,9 +147,19 @@ In order to provide a fair comparison between movies released in different years
 
 </br>
 
+![image](https://user-images.githubusercontent.com/40135948/148254968-7d273d3b-4f29-4f0b-a0c0-63f86c16ada4.png)
+
+
+</br>
+
   - **Warner bros** have distributed most number of films with **17.1%** of market share Followed by **Sony Pictures** with **15.5%** market share
   
 - other top distributor like **Walt Disney** , **Universal** ,  **20th century fox** and **Paramount Pictures** have market share between around **10%** to **12%**  
+
+</br>
+
+![image](https://user-images.githubusercontent.com/40135948/148255030-27e0b51d-75cd-4cbd-a45c-a1b925fadc98.png)
+
 
 </br>
 
@@ -142,9 +172,21 @@ In order to provide a fair comparison between movies released in different years
 
 ## Top Genres
 
+</br>
+
+![image](https://user-images.githubusercontent.com/40135948/148255081-21abbc40-c9f6-470a-8127-3b4b2e9fbf2e.png)
+
+
+</br>
+
  - People love watching drama as 35% of movies released are drama
 - Other top genres are comedy and documentary with 15.6% share each.
 - Black comedy and Musical have least number of releases.
+
+</br>
+
+![image](https://user-images.githubusercontent.com/40135948/148255109-24d241cc-9b0c-497d-9c12-a5b77256d77a.png)
+
 
 </br>
 
@@ -155,9 +197,21 @@ In order to provide a fair comparison between movies released in different years
 
 ## Top Grossing Ratings
 
+</br>
+
+![image](https://user-images.githubusercontent.com/40135948/148255208-810f953b-33cb-4964-b275-995752c65631.png)
+
+
+</br>
+
 
 - There is big chunck of 35% that is not being rated at all
 - Most released films are **R** rated which account for **33%** followed by **PG-13** and **PG** with **19.6%** and **9.3%**
+
+</br>
+
+![image](https://user-images.githubusercontent.com/40135948/148255255-cf82c4ff-dde8-41f6-bab7-c824b0f20c4c.png)
+
 
 </br>
 
@@ -166,12 +220,27 @@ In order to provide a fair comparison between movies released in different years
 
 </br>
 
+![image](https://user-images.githubusercontent.com/40135948/148255276-06619b52-e1ed-492e-920f-09d6a316088e.png)
+
+</br>
+
 - almost 95% of the fils are either PG-13, PG or R rated
 
 ## Top Grossing Sources
 
+</br>
+
+![image](https://user-images.githubusercontent.com/40135948/148255305-37c59c15-963f-4d84-9b7e-e9010e0f56a5.png)
+
+</br>
+
 - Majorty of the films are Original screenplay
 - Second and third larged source of Films are Real life events and Fiction boook / short story respectivly. 
+
+</br>
+
+![image](https://user-images.githubusercontent.com/40135948/148255360-744632ab-078d-4b44-89da-751b271c3e0b.png)
+
 
 </br>
 
@@ -181,9 +250,21 @@ In order to provide a fair comparison between movies released in different years
 
 ## Top Production Methodsm
 
+</br>
+
+![image](https://user-images.githubusercontent.com/40135948/148255389-26543099-9418-4937-bf92-894171a66532.png)
+
+
+</br>
+
 - mejority of the films are produced through Live action method
 - Considerable amount of movies are produced through Animation/Live action, Digital animation and hand animation
 - other types have negligable number of movies
+
+</br>
+
+![image](https://user-images.githubusercontent.com/40135948/148255430-d851c036-1fb5-47df-9eb2-49910d083b7d.png)
+
 
 </br>
 
@@ -193,8 +274,20 @@ In order to provide a fair comparison between movies released in different years
 
 ## WideReleasesCount
 
+</br>
+
+![image](https://user-images.githubusercontent.com/40135948/148255466-c2a60eea-752c-4e23-ba6f-2fdda3a65353.png)
+
+
+</br>
+
 - Top 6 major studios were releasing more than 100 movies every year untill 2008 and after that the number of movies started to fall
   
+</br>
+
+![image](https://user-images.githubusercontent.com/40135948/148255501-88f67945-00fa-4ca9-bb7e-d3b3f9068d3d.png)
+
+
 </br>
 
 - Initialy, Top 6 studios were producing low movies untill 2002 and after that they saw high groth untill 2008
