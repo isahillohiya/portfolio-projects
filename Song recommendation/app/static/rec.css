@@ -1,0 +1,56 @@
+#intro {
+    background-image: url("images/background2.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     height: 100vh
+ }
+ .mask {
+     height: 100vh
+ }
+
+
+ .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #121212;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 450px;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+
+
+      body .ui-autocomplete .ui-menu-item .ui-corner-all {
+        background-color: #fff;
+       
+     }
+
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+
+    .search-form{
+        align-items: center;
+
+    }

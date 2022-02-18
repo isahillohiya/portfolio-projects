@@ -1,0 +1,104 @@
+<html >
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{url_for('static',filename='rec.css')}}">
+
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+    <title>Recommendations</title>
+</head>
+
+<body>
+
+    <!-- background image div-->
+
+    <div id="intro" class="bg-image shadow-2-strong">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.8);" style="height : 100vh">
+
+
+
+   
+                <form action="/recommendations" method="POST" class = "search-form" style="align-self: left;">
+                    <div class="searchbar">
+
+                        <input id="search_input" class="search_input" type="search" name="search" placeholder="Search...">
+                        <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+                    </div>
+
+                </form>
+         
+            
+
+            </br>
+            <h1 style="margin-left: 50px; color:white;"> Selected Song </h1>
+            <h1>  {{mtd}}</h1>
+            </br>
+
+            <iframe src="https://open.spotify.com/embed/track/{{selected}}" width="500" height="80" frameborder="0"
+            allowtransparency="true" allow="encrypted-media" class="embed-responsive-item" aligh="right"
+            scrolling style="margin-left: 50px; color:white;"></iframe>
+
+            </br>
+            <h1 style="margin-left: 50px; color:white;"> Recommendaed Song </h1>
+            </br>
+            <ul id="rec_song1" style="list-style: none;">
+              
+                {% for i in rec_list %}
+                <li style ="display: inline-block ; margin-right : 150px ; margin-bottom: 50px"><iframe src="https://open.spotify.com/embed/track/{{i}}" width="600" height="80" frameborder="0"
+                        allowtransparency="true" allow="encrypted-media" class="embed-responsive-item" aligh="right"
+                        scrolling></iframe>
+                </li>
+                {% endfor %}
+            </ul>
+
+
+        </div>
+    </div>
+    </div>
+
+    <!-- background div -->
+
+
+</body>
+<script>
+    $(function () {
+
+
+
+        $(".search_input").on("input", function (e) {
+            text = $(".search_input").val();
+            $.ajax({
+                method: "post",
+                url: "/searchbox",
+                data: { search: text },
+                success: function (res) {
+                    console.log(res);
+                    $(".search_input").autocomplete({
+                        source: res,
+                        
+                        select : function(event, ui) { 
+                                
+                            
+                            $(".search_input").val( ui.item.value)
+                            $(".search-form").submit()
+                               
+                        }
+
+                    });
+                }
+            })
+        });
+
+
+
+    });
+</script>
+
+</html>
