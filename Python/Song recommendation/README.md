@@ -7,6 +7,13 @@ It has works in two steps:
  - **Song search**: Type the song name and select the song from drop down box (This engine have more than 24K top songs)
 - **Recommendations** : It finds similar song  from database using 'spotify_genre','danceability','skey','valence','tempo' and give top 6 songs that matches these feature most.
 
+</br>
+
+![Song Search - Google Chrome 2022-02-20 00-53-12](https://user-images.githubusercontent.com/40135948/154815949-2d928935-ae73-4a71-bcd1-484420febdc4.gif)
+
+
+</br>
+
 K Nearest Neighbor algorith is used for recommendation engine
 
 </br>
@@ -82,10 +89,9 @@ localhost:8080
 
 ## Data collection 
 
-## ##### add link for python script 
 
 - Download data from [data.world](https://data.world/kcmillersean/billboard-hot-100-1958-2017) (Not upto date)
-- Collect new songs name through [python script]()
+- Collect new songs name through [python script](https://github.com/isahillohiya/portfolio-projects/blob/main/Python/Song%20recommendation/app/data%20processing/billboard.py)
 - 
 - Get features like energy and genre for newly collected songs through [spotify api](https://developer.spotify.com/documentation/web-api/)
 
