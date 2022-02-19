@@ -28,7 +28,6 @@ K Nearest Neighbor algorith is used for recommendation engine
   - [Installing](#installing)
   - [Deployment](#deployment)
   - [Data collection](#data-collection)
-  - [##### add link for python script](#-add-link-for-python-script)
   - [Algorihm ](#algorihm)
 
 ## Built With
