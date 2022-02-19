@@ -14,7 +14,7 @@ host = "mydb"
 
 user = "root"
 passwd = "root"    
-database = "srecommend"  
+database = "srecommend" 
 
 engine = db.create_engine(f'mysql+pymysql://{user}:{passwd}@{host}/{database}')
 connection = engine.connect()
